@@ -39,12 +39,10 @@ pip install -r requirements.txt
 ## Usage
 
 To use the system, follow these steps:
-- Enable Torque of the Arm Motors:
-Start by running:
+- Enable Torque of the Arm Motors: This enables the torque of the robotic arm motors. You can modify the initial joint angles directly within the controller.py file as needed. Start by running:
 ```bash
 python controller.py
 ```
-This enables the torque of the robotic arm motors. You can modify the initial joint angles directly within the controller.py file as needed:
 
 - Adjust Transformations:
 Before running the pick-and-place code, make any necessary adjustments to the transformations in the code to ensure proper alignment and functioning of the robotic arm.
