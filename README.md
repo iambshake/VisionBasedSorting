@@ -16,4 +16,5 @@ Once you have YOLOv5 installed, you can follow the instructions on their GitHub 
 
 ## Installation
 
-- Mention any prerequisites such as Python version, libraries, or tools.
+- After setting up YOLOv5, you can install the rest of the project dependencies by running the following command from the root of your project directory:
+pip install -r requirements.txt
