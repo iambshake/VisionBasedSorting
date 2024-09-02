@@ -47,9 +47,7 @@ python controller.py
 - Adjust Transformations:
 Before running the pick-and-place code, make any necessary adjustments to the transformations in the code to ensure proper alignment and functioning of the robotic arm.
 
-- Run Object Detection and Pick-and-Place:
-
-After making the adjustments, run the pnp_with_OD.py script. This script detects the custom-trained object using the YOLOv5 model and performs the pick-and-place operation:
+- Run Object Detection and Pick-and-Place: After making the adjustments, run the pnp_with_OD.py script. This script detects the custom-trained object using the YOLOv5 model and performs the pick-and-place operation:
 ```bash
 python pnp_with_OD.py
 ```
