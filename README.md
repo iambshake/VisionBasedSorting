@@ -42,7 +42,7 @@ To use the system, follow these steps:
 - Enable Torque of the Arm Motors:
 Start by running:
 ```bash
-controller.py
+python controller.py
 ```
 This enables the torque of the robotic arm motors. You can modify the initial joint angles directly within the controller.py file as needed:
 
