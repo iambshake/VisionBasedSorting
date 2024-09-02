@@ -32,13 +32,19 @@ Once you have YOLOv5 installed, you can follow the instructions on their GitHub 
 ## Installation
 
 - After setting up YOLOv5, you can install the rest of the project dependencies by running the following command from the root of your project directory:
+```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 To use the system, follow these steps:
 - Enable Torque of the Arm Motors:
-Start by running controller.py, which enables the torque of the robotic arm motors. You can modify the initial joint angles directly within the controller.py file as needed:
+Start by running:
+```bash
+controller.py
+```
+This enables the torque of the robotic arm motors. You can modify the initial joint angles directly within the controller.py file as needed:
 
 - Adjust Transformations:
 Before running the pick-and-place code, make any necessary adjustments to the transformations in the code to ensure proper alignment and functioning of the robotic arm.
@@ -46,4 +52,6 @@ Before running the pick-and-place code, make any necessary adjustments to the tr
 - Run Object Detection and Pick-and-Place:
 
 After making the adjustments, run the pnp_with_OD.py script. This script detects the custom-trained object using the YOLOv5 model and performs the pick-and-place operation:
+```bash
 python pnp_with_OD.py
+```
