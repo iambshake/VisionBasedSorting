@@ -1,0 +1,7 @@
+# Requirements
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+dynamixel_sdk
+pyrealsense2
+apriltag
